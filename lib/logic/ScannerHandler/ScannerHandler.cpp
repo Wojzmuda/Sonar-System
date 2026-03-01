@@ -2,8 +2,9 @@
 #include "ScannerHandler.h"
 
 ScannerHandler::ScannerHandler(ServoHandler& servo, SonarHandler& sonar, int delayTime ):
- _sonar(sonar),
- _servo(servo){
+_servo(servo),
+_sonar(sonar)
+ {
     _delayTime = delayTime;
  };
 
